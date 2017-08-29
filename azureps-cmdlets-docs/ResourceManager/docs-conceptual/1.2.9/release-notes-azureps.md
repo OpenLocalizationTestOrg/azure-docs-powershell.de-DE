@@ -17,13 +17,11 @@ ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 06/29/2017
 ---
-# <span data-ttu-id="b8f8a-103">Versionshinweise</span><span class="sxs-lookup"><span data-stu-id="b8f8a-103">Release notes</span></span>
-<a id="release-notes" class="xliff"></a>
+# <a name="release-notes"></a><span data-ttu-id="b8f8a-103">Versionshinweise</span><span class="sxs-lookup"><span data-stu-id="b8f8a-103">Release notes</span></span>
 
 <span data-ttu-id="b8f8a-104">Hierbei handelt es sich um eine Liste der Änderungen, die in dieser Version an Azure PowerShell vorgenommen wurden.</span><span class="sxs-lookup"><span data-stu-id="b8f8a-104">This is a list of changes made to Azure PowerShell in this release.</span></span>
 
-## <span data-ttu-id="b8f8a-105">Version 1.2.9</span><span class="sxs-lookup"><span data-stu-id="b8f8a-105">Version 1.2.9</span></span>
-<a id="version-129" class="xliff"></a>
+## <a name="version-129"></a><span data-ttu-id="b8f8a-105">Version 1.2.9</span><span class="sxs-lookup"><span data-stu-id="b8f8a-105">Version 1.2.9</span></span>
 
 <span data-ttu-id="b8f8a-106">Änderungen in dieser Version</span><span class="sxs-lookup"><span data-stu-id="b8f8a-106">Changes This Release</span></span>
 
