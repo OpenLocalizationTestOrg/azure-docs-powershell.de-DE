@@ -10,11 +10,11 @@ ms.devlang: powershell
 ms.topic: conceptual
 ms.manager: carmonm
 ms.date: 07/26/2017
-ms.openlocfilehash: 3772b68949dc9dba110e6015c8d2a8b944b26528
-ms.sourcegitcommit: 20bcef86db4e4869125bb63085fcffd009c19280
+ms.openlocfilehash: 02bfc15fec83ed4078d9a054b450c5a3cd66b8e2
+ms.sourcegitcommit: db5c50de90764a9bdc7c1f1dbca3aed5bfeb05fa
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/22/2017
 ---
 # <a name="overview-of-azure-powershell"></a>Übersicht über Azure PowerShell
 
@@ -29,13 +29,14 @@ In den folgenden Beispielen werden gängige Szenarien mit Azure PowerShell veran
 * [Web-Apps](/azure/app-service-web/app-service-powershell-samples?toc=/powershell/azure/toc.json)
 * [SQL-Datenbanken](/azure/sql-database/sql-database-powershell-samples?toc=/powershell/azure/toc.json)
 
-
 > [!NOTE] > Bei nicht konvertierbaren Bereitstellungen mit dem klassischen Bereitstellungsmodell können Sie die Dienstverwaltungsversion von Azure PowerShell installieren. Weitere Informationen finden Sie unter [Installing the Azure PowerShell Service Management module](/powershell/azure/servicemanagement/install-azure-ps) (Installieren des Azure PowerShell-Dienstverwaltungsmoduls).
-
 
 ### <a name="need-help-with-powershell"></a>Benötigen Sie Hilfe mit PowerShell?
 
-Für Benutzer, die noch nicht mit PowerShell vertraut sind, ist ggf. eine Einführung in PowerShell hilfreich. Informationen zu den ersten Schritten mit PowerShell finden Sie unter [Skripterstellung mit Windows PowerShell](https://technet.microsoft.com/library/bb978526.aspx).
+Für Benutzer, die noch nicht mit PowerShell vertraut sind, ist ggf. eine Einführung in PowerShell hilfreich.
+
+* [Installieren von PowerShell](/powershell/scripting/installing-windows-powershell)
+* [Skripterstellung mit PowerShell](/powershell/scripting/scripting-with-windows-powershell)
 
 Empfehlenswert ist auch folgendes Video: [PowerShell Basics: (Part 1) Getting Started with PowerShell](https://channel9.msdn.com/Blogs/Taste-of-Premier/PowerShellBasicsPart1) (PowerShell-Grundlagen – Teil 1: Erste Schritte mit PowerShell).
 
