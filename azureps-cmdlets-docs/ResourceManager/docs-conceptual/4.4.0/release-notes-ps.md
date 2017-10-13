@@ -90,7 +90,7 @@ Katalog-Modul für Legacy-Cmdlets für die Dienstverwaltung (RDFE): [Link](https
      - Remove-AzureRmServiceBusNamespaceAuthorizationRule
        - Löscht die vorhandene AuthorizationRule des ServiceBus-Attributs „NameSpace“, „Queue“ oder „Topic“.
     * ResourceGroup-Eigenschaft zu „NamespaceAttributes“ hinzugefügt
-* SQL
+* Sql
     * „Set-AzureRmSqlServerTransparentDataEncryptionProtector“ aktualisiert, um Warnung anzuzeigen und die Bestätigung anzufordern, ob der Verschlüsselungsschutztyp auf „AzureKeyVault“ festgelegt werden soll
     * Neue aktualisierte Cmdlets für Überwachungseinstellungen hinzugefügt
         - Das Cmdlet „Get-AzureRmSqlDatabaseAuditing“ ruft die Überwachungseinstellungen einer Azure SQL-Datenbank ab.
