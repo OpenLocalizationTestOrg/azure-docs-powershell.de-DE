@@ -143,7 +143,7 @@ Hierbei handelt es sich um eine Liste der Änderungen, die in dieser Version an 
     - „Set-AzureRmNetworkInterfaceIpConfig“ aktualisiert: Optionale Parameter „ApplicationSecurityGroup“ und „ApplicationSecurityGroupId“ hinzugefügt
     - „New-AzureRmNetworkSecurityRuleConfig“ aktualisiert: Optionale Parameter „SourceApplicationSecurityGroup“, „SourceApplicationSecurityGroupId“, „DestinationApplicationSecurityGroup“ und „DestinationApplicationSecurityGroupId“ hinzugefügt
     - „Add-AzureRmNetworkSecurityRuleConfig“ aktualisiert: Optionale Parameter „SourceApplicationSecurityGroup“, „SourceApplicationSecurityGroupId“, „DestinationApplicationSecurityGroup“ und „DestinationApplicationSecurityGroupId“ hinzugefügt
-    - „Set-AzureRmNetworkSecurityRuleConfig“ aktualisiert: Optionale Parameter „SourceApplicationSecurityGroup“, „SourceApplicationSecurityGroupId“, „DestinationApplicationSecurityGroup“ und „DestinationApplicationSecurityGroupId“ hinzugefügt
+    - „New-AzureRmNetworkSecurityRuleConfig“ aktualisiert: Optionale Parameter „SourceApplicationSecurityGroup“, „SourceApplicationSecurityGroupId“, „DestinationApplicationSecurityGroup“ und „DestinationApplicationSecurityGroupId“ hinzugefügt
   * Neue Befehle für VpnDeviceConfiguration-Skripts hinzugefügt
     - Get-AzureRmVirtualNetworkGatewaySupportedVpnDevices
     - Get-AzureRmVirtualNetworkGatewayConnectionVpnDeviceConfigScript
