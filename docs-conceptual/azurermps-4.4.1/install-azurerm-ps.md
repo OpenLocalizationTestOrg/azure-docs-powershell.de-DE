@@ -9,14 +9,17 @@ ms.product: azure
 ms.service: azure-powershell
 ms.devlang: powershell
 ms.topic: conceptual
-ms.date: 05/17/2017
-ms.openlocfilehash: 0c1500a8748a3aa4546c6ce1e8d16a635b056edb
+ms.date: 08/31/2017
+ms.openlocfilehash: 0e560332c87fdcc8b7365f2271de24481003a4d6
 ms.sourcegitcommit: b256bf48e15ee98865de0fae50e7b81878b03a54
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/03/2017
 ---
 # <a name="install-and-configure-azure-powershell"></a>Installieren und Konfigurieren von Azure PowerShell
+
+Dieser Artikel beschreibt die Schritte zum Installieren der Azure PowerShell-Module in einer Windows-Umgebung.
+Wenn Sie Azure PowerShell unter macOS oder Linux verwenden möchten, lesen Sie den folgenden Artikel: [Installieren und Konfigurieren von Azure PowerShell unter macOS und Linux](install-azurermps-maclinux.md).
 
 Die Installation von Azure PowerShell aus dem PowerShell-Katalog ist die bevorzugte Installationsmethode.
 
@@ -30,7 +33,7 @@ Get-Module PowerShellGet -list | Select-Object Name,Version,Path
 
 Etwa folgende Ausgabe sollte angezeigt werden:
 
-```
+```Output
 Name          Version Path
 ----          ------- ----
 PowerShellGet 1.0.0.1 C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\1.0.0.1\PowerShellGet.psd1
@@ -39,7 +42,7 @@ PowerShellGet 1.0.0.1 C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\1
 Falls PowerShellGet nicht installiert ist, lesen Sie die Informationen im Abschnitt [Installieren von PowerShellGet](#how-to-get-powershellget) dieses Artikels.
 
 > [!NOTE]
-> Für die Verwendung von PowerShellGet ist eine Ausführungsrichtlinie erforderlich, die die Ausführung von Skripts ermöglicht. Weitere Informationen zur Ausführungsrichtlinie von PowerShell finden Sie unter [About Execution Policies](https://msdn.microsoft.com/powershell/reference/5.1/microsoft.powershell.core/about/about_execution_policies) (Informationen zu Ausführungsrichtlinien).
+> Für die Verwendung von PowerShellGet ist eine Ausführungsrichtlinie erforderlich, die die Ausführung von Skripts ermöglicht. Weitere Informationen zur Ausführungsrichtlinie von PowerShell finden Sie unter [About Execution Policies](/powershell/module/microsoft.powershell.core/about/about_execution_policies) (Informationen zu Ausführungsrichtlinien).
 
 ## <a name="step-2-install-azure-powershell"></a>Schritt 2: Installieren von Azure PowerShell
 
@@ -47,12 +50,12 @@ Für die Installation von Azure PowerShell aus dem PowerShell-Katalog sind erhö
 
 ```powershell
 # Install the Azure Resource Manager modules from the PowerShell Gallery
-Install-Module AzureRM
+Install-Module AzureRM -AllowClobber
 ```
 
 Standardmäßig ist der PowerShell-Katalog nicht als vertrauenswürdiges Repository für PowerShellGet konfiguriert. Bei der ersten Verwendung des PowerShell-Katalogs wird die folgende Meldung angezeigt:
 
-```
+```Output
 Untrusted repository
 
 You are installing the modules from an untrusted repository. If you trust this repository, change
@@ -84,6 +87,10 @@ Weitere Informationen zur Verwendung von Azure PowerShell finden Sie in den folg
 
 * [Erste Schritte mit Azure PowerShell](get-started-azureps.md)
 
+## <a name="reporting-issues-and-feedback"></a>Melden von Problemen und Bereitstellen von Feedback
+
+Wenn mit dem Tool Fehler auftreten, legen Sie einen Eintrag im Bereich [Probleme](https://github.com/Azure/azure-powershell/issues) unseres GitHub Repositorys an. Zum Senden von Feedback zur Befehlszeile verwenden Sie das Cmdlet `Send-Feedback`.
+
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
 ### <a name="how-to-get-powershellget"></a>Installieren von PowerShellGet
@@ -111,7 +118,7 @@ Bei Bereitstellungen mit dem klassischen Bereitstellungsmodell können Sie die D
 
 Wenn Sie eine frühere Version von Azure PowerShell installiert haben, die das Dienstverwaltungsmodul enthält, kann die folgende Fehlermeldung angezeigt werden:
 
-```
+```Output
 PackageManagement\Install-Package : A command with name 'Get-AzureStorageContainerAcl' is already
 available on this system. This module 'Azure.Storage' may override the existing commands. If you
 still want to install this module 'Azure.Storage', use -AllowClobber parameter.
