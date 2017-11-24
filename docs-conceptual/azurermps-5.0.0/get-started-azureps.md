@@ -1,4 +1,4 @@
--- title: Erste Schritte mit Azure PowerShell | Microsoft-Dokumentation description: services: azure author: sdwheeler ms.author: sewhee manager: carmonm ms.product: azure ms.service: azure-powershell ms.devlang: powershell ms.topic: get-started-article ms.date: 08/31/2017
+-- title: Erste Schritte mit Azure PowerShell | Microsoft-Dokumentation description: services: azure author: sdwheeler ms.author: sewhee manager: carmonm ms.product: azure ms.service: azure-powershell ms.devlang: powershell ms.topic: get-started-article ms.date: 11/15/2017
 ---
 # <a name="getting-started-with-azure-powershell"></a>Erste Schritte mit Azure PowerShell
 
@@ -28,7 +28,7 @@ Vergewissern Sie sich zunächst, dass die neueste Version von Azure PowerShell i
 
 1. [Installieren Sie Azure PowerShell](install-azurerm-ps.md).
 
-2. Führen Sie `Get-Module AzureRM` über die Befehlszeile aus, um sich zu vergewissern, dass die Installation erfolgreich war.
+2. Führen Sie `Get-Module AzureRM -ListAvailable` über die Befehlszeile aus, um sich zu vergewissern, dass die Installation erfolgreich war.
 
 ## <a name="log-in-to-azure"></a>Anmelden an Azure
 
