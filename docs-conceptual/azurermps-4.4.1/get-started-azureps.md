@@ -11,10 +11,10 @@ ms.devlang: powershell
 ms.topic: get-started-article
 ms.date: 11/15/2017
 ms.openlocfilehash: cbe8507a89c048351dab64e28552596ed802bf21
-ms.sourcegitcommit: c42c7176276ec4e1cc3360a93e6b15d32083bf9f
+ms.sourcegitcommit: d320fd5a2f468445c9e5aaa8d28dc363ece12ffc
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/16/2018
 ---
 # <a name="getting-started-with-azure-powershell"></a>Erste Schritte mit Azure PowerShell
 
@@ -30,7 +30,7 @@ Die einfachste Möglichkeit, erste Schritte auszuführen, besteht im [Starten vo
 
 2. Wählen Sie das zu verwendende Abonnement aus, und erstellen Sie ein Speicherkonto.
 
-   ![Erstellen Sie ein Speicherkonto.](~/media/get-started-azureps/storage-prompt.png)
+   ![Speicherkonto erstellen](~/media/get-started-azureps/storage-prompt.png)
 
 Nach Erstellung des Speichers wird von Cloud Shell eine PowerShell-Sitzung im Browser geöffnet.
 
