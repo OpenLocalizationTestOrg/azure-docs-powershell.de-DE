@@ -37,10 +37,11 @@
       items:
         - name: Verwenden experimenteller Module
           href: using-experimental-modules.md
-        - name: Paralleles Ausführen von Cmdlets mithilfe von PowerShell-Aufträgen
-          href: using-psjobs.md
     - name: Versionshinweise
       href: release-notes-azureps.md
+      items:
+        - name: Grundlegende Änderungen für Azure PowerShell 5.x
+          href: migration-guide.5.0.0.md
 - name: Beispielskripts
   items:
     - name: Virtuelle Linux-Computer
