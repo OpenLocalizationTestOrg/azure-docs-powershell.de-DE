@@ -623,7 +623,7 @@ Set-AzureRmADUser [other required parameters] -Password $SecureStringVariable
 
 ### <a name="type-namespaceattributes"></a>**Typ „NamespaceAttributes“**
 - Folgende Eigenschaften wurden entfernt:
-    - Enabled
+    - Aktiviert
     - Status
    
 ```powershell
