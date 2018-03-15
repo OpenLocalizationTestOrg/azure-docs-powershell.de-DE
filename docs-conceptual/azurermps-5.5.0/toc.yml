@@ -1,0 +1,62 @@
+- name: Azure PowerShell
+  href: overview.md
+  items:
+    - name: Installieren
+      href: install-azurerm-ps.md
+      items:
+        - name: Installieren unter macOS und Linux
+          href: install-azurermps-maclinux.md
+        - name: Andere Installationsmethoden
+          href: other-install.md
+    - name: Erste Schritte
+      href: get-started-azureps.md
+    - name: Cloud Shell
+      href: 'https://docs.microsoft.com/azure/cloud-shell/overview'
+    - name: Anmelden
+      href: authenticate-azureps.md
+      items:
+        - name: Erstellen eines Dienstprinzipals
+          href: create-azure-service-principal-azureps.md
+        - name: Verwenden beständiger Anmeldeinformationen
+          href: context-persistence.md
+    - name: Abfragen
+      href: queries-azureps.md
+    - name: Formatierung
+      href: formatting-output.md
+    - name: Abonnements
+      href: manage-subscriptions-azureps.md
+    - name: Bereitstellen
+      items:
+        - name: Bereitstellen mithilfe von Resource Manager-Vorlagen
+          href: /azure/azure-resource-manager/resource-group-template-deploy
+        - name: Exportieren von Resource Manager-Vorlagen
+          href: /azure/azure-resource-manager/resource-manager-export-template-powershell
+        - name: Bereitstellen privater Resource Manager-Vorlagen mit SAS-Token
+          href: /azure/azure-resource-manager/resource-manager-powershell-sas-token
+    - name: Konzepte
+      items:
+        - name: Verwenden experimenteller Module
+          href: using-experimental-modules.md
+        - name: Verwenden von PowerShell-Aufträgen
+          href: using-psjobs.md
+    - name: Versionshinweise
+      href: release-notes-azureps.md
+      items:
+        - name: Grundlegende Änderungen für Azure PowerShell 5.x
+          href: migration-guide.5.0.0.md
+- name: Tutorials
+  items:
+    - name: Erstellen von virtuellen Computern
+      href: azureps-vm-tutorial.yml
+- name: Beispielskripts
+  items:
+    - name: Virtuelle Linux-Computer
+      href: /azure/virtual-machines/linux/powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json
+    - name: Virtuelle Windows-Computer
+      href: /azure/virtual-machines/windows/powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json
+    - name: Web-Apps
+      href: /azure/app-service-web/app-service-powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json
+    - name: SQL-DATENBANKEN
+      href: /azure/sql-database/sql-database-powershell-samples?toc=%2fpowershell%2fmodule%2ftoc.json
+    - name: Cosmos DB
+      href: /azure/cosmos-db/powershell-samples?toc=%2fpowershell%2fmodules%2ftoc.json
