@@ -388,7 +388,7 @@ $consumergroup = Get-AzureRmEventHubConsumerGroup <parameters>
 
 ### <a name="add-azurermlogalertrule"></a>**Add-AzureRMLogAlertRule**
 - Das Cmdlet **Add-AzureRMLogAlertRule** ist veraltet.
-- Nach dem 1. Oktober hat die Verwendung dieses Cmdlets keine Wirkung mehr, da die Funktion in Aktivitätsprotokollwarnungen übertragen wurde. Weitere Informationen finden Sie unter https://aka.ms/migratemealerts.
+- Nach dem 1. Oktober hat die Verwendung dieses Cmdlets keine Wirkung mehr, da die Funktion in Aktivitätsprotokollwarnungen übertragen wurde. Unter https://aka.ms/migratemealerts finden Sie weitere Informationen.
 
 ### <a name="get-azurermusage"></a>**Get-AzureRMUsage**
 - Das Cmdlet **Get-AzureRMUsage** ist veraltet.
