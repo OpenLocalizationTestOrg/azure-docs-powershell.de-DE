@@ -65,8 +65,8 @@
            "Pdf" 
     ],
     "live": [
-           "Publish",
-           "Pdf"
+      "Publish",
+      "Pdf"
     ]
 },
 "Targets": {
