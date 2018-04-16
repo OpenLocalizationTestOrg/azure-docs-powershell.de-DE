@@ -1,6 +1,6 @@
 ---
 title: Installieren und Konfigurieren von Azure PowerShell | Microsoft-Dokumentation
-description: "Hier erfahren Sie, wie Sie Azure PowerShell für die erste Verwendung installieren und konfigurieren."
+description: Hier erfahren Sie, wie Sie Azure PowerShell für die erste Verwendung installieren und konfigurieren.
 services: azure
 author: sdwheeler
 ms.author: sewhee
@@ -9,12 +9,12 @@ ms.product: azure
 ms.service: azure-powershell
 ms.devlang: powershell
 ms.topic: conceptual
-ms.date: 08/31/2017
-ms.openlocfilehash: 0e560332c87fdcc8b7365f2271de24481003a4d6
-ms.sourcegitcommit: 72f56597f0329d35779a3ea4ccea6293f0fd2502
+ms.date: 03/27/2018
+ms.openlocfilehash: 13dd8973cd28c1763aee19fbea067758053deb7d
+ms.sourcegitcommit: 8376e0bc5f862d382d7283ba72990e3707591e7b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2018
+ms.lasthandoff: 03/30/2018
 ---
 # <a name="install-and-configure-azure-powershell"></a>Installieren und Konfigurieren von Azure PowerShell
 
@@ -28,7 +28,7 @@ Die Installation von Azure PowerShell aus dem PowerShell-Katalog ist die bevorzu
 Für die Installation von Komponenten aus dem PowerShell-Katalog ist das PowerShellGet-Modul erforderlich. Stellen Sie sicher, dass Sie über die entsprechende Version von PowerShellGet verfügen und alle anderen Systemanforderungen erfüllt sind. Führen Sie den folgenden Befehl aus, um zu ermitteln, ob PowerShellGet auf Ihrem System installiert ist.
 
 ```powershell
-Get-Module PowerShellGet -list | Select-Object Name,Version,Path
+Get-Module -Name PowerShellGet -ListAvailable | Select-Object -Property Name,Version,Path
 ```
 
 Etwa folgende Ausgabe sollte angezeigt werden:
@@ -36,7 +36,16 @@ Etwa folgende Ausgabe sollte angezeigt werden:
 ```Output
 Name          Version Path
 ----          ------- ----
+Name          Version Path
+----          ------- ----
+PowerShellGet 1.6.0   C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\1.6.0\PowerShellGet.psd1
 PowerShellGet 1.0.0.1 C:\Program Files\WindowsPowerShell\Modules\PowerShellGet\1.0.0.1\PowerShellGet.psd1
+```
+
+Sie benötigen mindestens die PowerShellGet-Version 1.1.2.0. Verwenden Sie zum Aktualisieren von PowerShellGet den folgenden Befehl:
+
+```powershell
+Install-Module PowerShellGet -Force
 ```
 
 Falls PowerShellGet nicht installiert ist, lesen Sie die Informationen im Abschnitt [Installieren von PowerShellGet](#how-to-get-powershellget) dieses Artikels.
@@ -50,7 +59,7 @@ Für die Installation von Azure PowerShell aus dem PowerShell-Katalog sind erhö
 
 ```powershell
 # Install the Azure Resource Manager modules from the PowerShell Gallery
-Install-Module AzureRM -AllowClobber
+Install-Module -Name AzureRM -AllowClobber
 ```
 
 Standardmäßig ist der PowerShell-Katalog nicht als vertrauenswürdiges Repository für PowerShellGet konfiguriert. Bei der ersten Verwendung des PowerShell-Katalogs wird die folgende Meldung angezeigt:
@@ -78,7 +87,7 @@ Wenn eine frühere Version von Azure PowerShell installiert ist, erhalten Sie m�
 Nach der Installation des Moduls müssen Sie das Modul in der PowerShell-Sitzung laden. Dies muss in einer normalen PowerShell-Sitzung (ohne erhöhte Rechte) erfolgen. Module werden wie folgt mit dem Cmdlet `Import-Module` geladen:
 
 ```powershell
-Import-Module AzureRM
+Import-Module -Name AzureRM
 ```
 
 ## <a name="next-steps"></a>Nächste Schritte
@@ -107,7 +116,7 @@ Wenn mit dem Tool Fehler auftreten, legen Sie einen Eintrag im Bereich [Probleme
 Obwohl empfohlen wird, möglichst bald ein Upgrade auf die neueste Version auszuführen, werden verschiedene Azure PowerShell-Versionen unterstützt. Führen Sie zum Ermitteln der installierten Azure PowerShell-Version `Get-Module AzureRM` in der Befehlszeile aus:
 
 ```powershell
-Get-Module AzureRM -list | Select-Object Name,Version,Path
+Get-Module AzureRM -ListAvailable | Select-Object -Property Name,Version,Path
 ```
 
 ### <a name="support-for-classic-deployment-methods"></a>Unterstützung für klassische Bereitstellungsmethoden
@@ -134,7 +143,7 @@ Wie in der Fehlermeldung angegeben, müssen Sie den Parameter „-AllowClobber�
 
 ```powershell
 # Install the Azure Resource Manager modules from the PowerShell Gallery
-Install-Module AzureRM -AllowClobber
+Install-Module -Name AzureRM -AllowClobber
 ```
 
 Weitere Informationen finden Sie im Hilfethema zu [Install-Module](https://msdn.microsoft.com/powershell/reference/5.1/PowerShellGet/install-module).
@@ -151,7 +160,7 @@ Install-Module -Name AzureRM -RequiredVersion 1.2.9
 Nur eine Version des Moduls kann in einer PowerShell-Sitzung geladen werden. Sie müssen ein neues PowerShell-Fenster öffnen und `Import-Module` verwenden, um eine bestimmte Version der AzureRM-Cmdlets zu importieren:
 
 ```powershell
-Import-Module AzureRM -RequiredVersion 1.2.9
+Import-Module -Name AzureRM -RequiredVersion 1.2.9
 ```
 
 > [!NOTE]
