@@ -12,10 +12,10 @@ ms.topic: conceptual
 ms.workload: 
 ms.date: 07/26/2017
 ms.openlocfilehash: d8a891673df343551cbd805016c2d25ee4e31c8c
-ms.sourcegitcommit: b256bf48e15ee98865de0fae50e7b81878b03a54
+ms.sourcegitcommit: e6b7e20bbd04eda51416c56b13f867102b602d1a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/07/2017
 ---
 # <a name="release-notes"></a>Versionshinweise
 
@@ -143,7 +143,7 @@ Hierbei handelt es sich um eine Liste der Änderungen, die in dieser Version an 
     - „Set-AzureRmNetworkInterfaceIpConfig“ aktualisiert: Optionale Parameter „ApplicationSecurityGroup“ und „ApplicationSecurityGroupId“ hinzugefügt
     - „New-AzureRmNetworkSecurityRuleConfig“ aktualisiert: Optionale Parameter „SourceApplicationSecurityGroup“, „SourceApplicationSecurityGroupId“, „DestinationApplicationSecurityGroup“ und „DestinationApplicationSecurityGroupId“ hinzugefügt
     - „Add-AzureRmNetworkSecurityRuleConfig“ aktualisiert: Optionale Parameter „SourceApplicationSecurityGroup“, „SourceApplicationSecurityGroupId“, „DestinationApplicationSecurityGroup“ und „DestinationApplicationSecurityGroupId“ hinzugefügt
-    - „New-AzureRmNetworkSecurityRuleConfig“ aktualisiert: Optionale Parameter „SourceApplicationSecurityGroup“, „SourceApplicationSecurityGroupId“, „DestinationApplicationSecurityGroup“ und „DestinationApplicationSecurityGroupId“ hinzugefügt
+    - „Set-AzureRmNetworkSecurityRuleConfig“ aktualisiert: Optionale Parameter „SourceApplicationSecurityGroup“, „SourceApplicationSecurityGroupId“, „DestinationApplicationSecurityGroup“ und „DestinationApplicationSecurityGroupId“ hinzugefügt
   * Neue Befehle für VpnDeviceConfiguration-Skripts hinzugefügt
     - Get-AzureRmVirtualNetworkGatewaySupportedVpnDevices
     - Get-AzureRmVirtualNetworkGatewayConnectionVpnDeviceConfigScript
